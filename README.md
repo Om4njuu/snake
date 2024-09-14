@@ -6,6 +6,7 @@
 The Snake Game is a simple yet classic arcade game implemented with JavaScript, HTML, and CSS. The player controls a snake that moves around the game board, eating food to grow longer while avoiding collisions with the walls or its own tail. This project demonstrates fundamental game development concepts such as canvas rendering, collision detection, and keyboard input handling.
 
 ## Demo
+**Support playing on PC Only**
 https://om4njuu.github.io/Snake-Game/
 
 ## Features
