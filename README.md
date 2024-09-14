@@ -7,6 +7,7 @@ The Snake Game is a simple yet classic arcade game implemented with JavaScript, 
 
 ## Demo
 **Support playing on PC Only**
+
 https://om4njuu.github.io/Snake-Game/
 
 ## Features
