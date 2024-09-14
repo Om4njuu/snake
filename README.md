@@ -32,15 +32,17 @@ To get started with the Snake Game, follow these steps:
    Open index.html in your preferred web browser to start playing the game.
 
 ## Usage
-Use the arrow keys (Up, Down, Left, Right) to control the snake's direction.
-Guide the snake to eat the red food on the game board.
-Avoid running into the walls or the snake's own body.
-The game will reset automatically if a collision occurs.
-Technologies Used
-JavaScript: For game logic, keyboard input handling, and canvas rendering.
-HTML: For setting up the game interface.
-CSS: For styling the game canvas and page layout.
-Contributing
+- Use the arrow keys (Up, Down, Left, Right) to control the snake's direction.
+- Guide the snake to eat the red food on the game board.
+- Avoid running into the walls or the snake's own body.
+- The game will reset automatically if a collision occurs.
+
+##Technologies Used
+- **JavaScript**: For game logic, keyboard input handling, and canvas rendering.
+- **HTML**: For setting up the game interface.
+- **CSS**: For styling the game canvas and page layout.
+
+##Contributing
 Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
 
 ## License
