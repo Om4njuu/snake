@@ -37,12 +37,12 @@ To get started with the Snake Game, follow these steps:
 3. Avoid running into the walls or the snake's own body.
 4. The game will reset automatically if a collision occurs.
 
-##Technologies Used
+## Technologies Used
 - **JavaScript**: For game logic, keyboard input handling, and canvas rendering.
 - **HTML**: For setting up the game interface.
 - **CSS**: For styling the game canvas and page layout.
 
-##Contributing
+## Contributing
 Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
 
 ## License
