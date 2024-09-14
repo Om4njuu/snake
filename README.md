@@ -22,7 +22,7 @@ To get started with the Snake Game, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/snake-game.git
+   git clone https://github.com/om4njuu/snake-game.git
 
 2. Navigate to the Project Directory:
    ```bash
