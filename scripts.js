@@ -16,14 +16,13 @@ function drawGame() {
     drawBoard();
     drawSnake();
     drawFood();
-    setTimeout(drawGame, 100); // Refresh the game 10 times per second
+    setTimeout(drawGame, 100);
 }
 
 function updateSnakePosition() {
     const head = { x: snake[0].x + velocity.x, y: snake[0].y + velocity.y };
     snake.unshift(head);
 
-    // Remove the last part of the snake unless food was eaten
     if (snake[0].x === food.x && snake[0].y === food.y) {
         score++;
         placeFood();
@@ -33,12 +32,10 @@ function updateSnakePosition() {
 }
 
 function checkCollision() {
-    // Check wall collision
     if (snake[0].x < 0 || snake[0].x >= tileCount || snake[0].y < 0 || snake[0].y >= tileCount) {
         resetGame();
     }
 
-    // Check self-collision
     for (let i = 1; i < snake.length; i++) {
         if (snake[i].x === snake[0].x && snake[i].y === snake[0].y) {
             resetGame();
